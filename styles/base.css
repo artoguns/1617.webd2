@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Rajdhani', sans-serif; 
+  src: url(https://fonts.googleapis.com/css?family=Rajdhani);
+
+  font-family: 'Roboto', sans-serif; 
+  src: url(https://fonts.googleapis.com/css?family=Roboto);
+
+  font-family: 'Pacifico', cursive;
+  src: url(https://fonts.googleapis.com/css?family=Pacifico);
+
+}
+
+
+
+
+.nav {
+    font-family: "Rajdhani";
+    font-weight: bold ;
+    float: right;
+    display: inline; 
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    display: inline-block;
+    list-style: none;
+    
+    margin: 0 -1px -1px 0;
+   
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    float: right;
+    background-color: black;
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 100px; 
+}
+
+.nav li {
+    font-family: 'Rajdhani', sans-serif; 
+    float: left;
+    color: #3C3C3B;
+}
+.nav li a {
+    font-family: 'Rajdhani', sans-serif; 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #3C3C3B;
+}
+.nav li a:hover{
+    color: white;
+}
+.logo {
+    float: left;
+    margin-left: 10px;
+    height: 60px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+h1{
+    font-family: "Rajdhani";
+}
+h2{
+    font-family: "Rajdhani";
+}
+h3{
+    font-family: "Rajdhani";
+    text-align: "left";
+}
+
+h4{
+    font-family: "Rajdhani";
+    text-align: "left";
+    color:#878787;
+}
+
+a {
+    text-decoration: none;
+}
+.button {
+    font-family: "Rajdhani";
+}
+
+
+p, li{
+    font-family: "Roboto";
+    text-align: left;
+    color: #878787;
+}
+
+#who {
+    background-color: #d8d8d8;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+}
+
+
+
+#footer{
+    background-color: black;
+    color: #878787;
+    float: right;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+  background: black url('hero_image.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  500px;
+  position: relative;
+}
+
+.hero__text { 
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  position:  absolute;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+  
+}
+
+.hero__title { 
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.hero__mystery {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 9rem;
+  margin: 0px -20px;
+}
+
+.hero__button {
+  font-family: 'Rajdhani', sans-serif; 
+  display: inline-block;
+  padding: 12px 20px;
+  background:black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+}
+
+.hero__button:hover {
+  font-family: 'Rajdhani', sans-serif; 
+  color: #333;
+  background: #FFF;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+.line {
+    background: #878787;
+    height: 1px;
+    margin: 30px auto;
+    position: relative;
+    width: 300px;
+   
+}
+.hero__button_omgekeerd {
+  font-family: 'Rajdhani', sans-serif; 
+  display: inline-block;
+  padding: 12px 20px;
+  background:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  border: 2px solid black;
+}
+
+.hero__button_omgekeerd:hover {
+  font-family: 'Rajdhani', sans-serif; 
+  color: white;
+  background: black;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+
+
+.text__button {
+  background-color: black;
+  color:#878787;
+  font-family: "Roboto"; 
+  background:black;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text__button:hover {
+  font-family: 'Roboto'; 
+  color:white; 
+}
+
+#about {
+    background-color: #EDEDED;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 5;
+    text-align: left;
+    height: 300px;
+}
+.line_about {
+    background: #878787;
+    height: 2px;
+    margin: 20px auto;
+    position: left;
+    width: 400px;
+   float: left;
+}
+h2{
+    margin: 12px;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+.text__button_omgekeerd {
+  background-color: white;
+  color:#878787;
+  font-family: "Roboto"; 
+  background:#EDEDED;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text__button_omgekeerd:hover {
+  font-family: 'Roboto'; 
+  color:black; 
+}
+
+.contact, .offerte {
+    background-color: #EDEDED;
+    color: #878787;
+    float: right;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 5;
+}
+
+.tekstkader_offerte {
+    background-color: #3C3C3B;
+    color: #878787;
+    margin: 5;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 15px;
+    float: right;
+    display: inline;
+}
+.tekstkader_offerte_bericht {
+    background-color: #3C3C3B;
+    color: #878787;
+    margin: 5;
+    margin-top: 20px;
+    margin-left: -5px;
+    display: inline;
+}
+.line_text {
+    background: #878787;
+    height: 2px;
+    margin: -10px auto;
+    position: left;
+    width: 200px;
+    float: left;
+}
+
+#vacatures {
+    margin: -10px auto;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.datum {
+   margin-top: -18px;
+   font-weight: lighter;
+   font-size: 0.8em;
+}
+
+.read {
+    font-weight: lighter;
+   font-size: 0.8em;
+}
+
+.gallery {
+    margin: 12px;
+    border: 1px solid #3C3C3B;
+    float: left;
+    width: 300px;
+    margin-right: 32px;
+}
+
+.gallery:hover {
+    border: 1px solid white;
+    background-color: #3C3C3B;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 0px;
+    text-align: center;
+    
+}
+.imgexplination {
+    height: 200px;
+    width: 1000px;
+}
+
+.hero__button_omgekeerd_send {
+  font-family: 'Rajdhani', sans-serif; 
+  display: inline-block;
+  padding: 12px 20px;
+  background:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  border: 2px solid black;
+  float: right;
+}
+
+.hero__button_omgekeerd_send:hover {
+  font-family: 'Rajdhani', sans-serif; 
+  color: white;
+  background: black;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+h3, h2 {
+    color:#3C3C3B;
+}
+
+
+
